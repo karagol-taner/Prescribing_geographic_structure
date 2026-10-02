@@ -1,0 +1,242 @@
+{
+ "n_items_all": 2160,
+ "n_appliances": 49,
+ "n_items_primary": 2111,
+ "max_abs_diff_intercept_only_vs_raw_jsd": 1.27675647831893e-15,
+ "max_abs_diff_vectorised_vs_method_jsd": 1.27675647831893e-15,
+ "appliance_share_of_mean_shares": 0.02580532992977028,
+ "primary_excluding_appliances": {
+  "raw": {
+   "mean_neighbours": 0.10898800225111374,
+   "mean_non_neighbours": 0.12996544584780745,
+   "pct_more_similar": 16.14078531401245,
+   "p_neighbours": 0.0001,
+   "null_mean_pct": -0.02160052310286048,
+   "spearman_distance": 0.317378737353522,
+   "p_spearman": 0.0001,
+   "n_perm": 9999,
+   "test": "area labels",
+   "relative_distance_bordering": 0.8552667864531384,
+   "relative_distance_by_quintile": [
+    0.9057354761383192,
+    0.9812489090325743,
+    1.041382136442671,
+    1.0266637182253824,
+    1.0447098193508746
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 2588
+  },
+  "age_deprivation_adjusted": {
+   "mean_neighbours": 0.10494216403849545,
+   "mean_non_neighbours": 0.11303853159592392,
+   "pct_more_similar": 7.1624847236784355,
+   "p_neighbours": 0.0001,
+   "null_mean_pct": -1.3072224453341321,
+   "spearman_distance": 0.22134991899749035,
+   "p_spearman": 0.002,
+   "n_perm": 9999,
+   "test": "Freedman-Lane-type",
+   "relative_distance_bordering": 0.9364771310102921,
+   "relative_distance_by_quintile": [
+    0.9277260313845623,
+    1.0078290425066638,
+    1.017920564488039,
+    1.0223467176957055,
+    1.024037888757832
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 14037
+  },
+  "need_adjusted": {
+   "mean_neighbours": 0.1037165455940281,
+   "mean_non_neighbours": 0.10760825741147231,
+   "pct_more_similar": 3.6165550033610274,
+   "p_neighbours": 0.0001,
+   "null_mean_pct": -1.9065291450837722,
+   "spearman_distance": 0.13363673161594603,
+   "p_spearman": 0.0191,
+   "n_perm": 9999,
+   "test": "Freedman-Lane-type",
+   "relative_distance_bordering": 0.9680633658615724,
+   "relative_distance_by_quintile": [
+    0.9514113616782853,
+    1.0126088808509068,
+    1.0142108190453738,
+    1.017996418737434,
+    1.0037507132158143
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 13751
+  }
+ },
+ "all_items": {
+  "raw": {
+   "mean_neighbours": 0.12460168225891327,
+   "mean_non_neighbours": 0.14056200788014223,
+   "pct_more_similar": 11.354651133639459,
+   "p_neighbours": 0.0001,
+   "null_mean_pct": 0.008594393031606926,
+   "spearman_distance": 0.23336538213876332,
+   "p_spearman": 0.0032,
+   "n_perm": 9999,
+   "test": "area labels",
+   "relative_distance_bordering": 0.8987804950818035,
+   "relative_distance_by_quintile": [
+    0.9248053983403741,
+    0.9918635991004598,
+    1.0336539779755871,
+    1.0339374973146864,
+    1.0156485473424819
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 2677
+  },
+  "age_deprivation_adjusted": {
+   "mean_neighbours": 0.12172926863808103,
+   "mean_non_neighbours": 0.12652561618641517,
+   "pct_more_similar": 3.7908114521785747,
+   "p_neighbours": 0.0076,
+   "null_mean_pct": -0.7680725484935224,
+   "spearman_distance": 0.17320299358654143,
+   "p_spearman": 0.0286,
+   "n_perm": 4999,
+   "test": "Freedman-Lane-type",
+   "relative_distance_bordering": 0.9665174847487287,
+   "relative_distance_by_quintile": [
+    0.9428263822206859,
+    1.0130702379816867,
+    1.0152946732646517,
+    1.0314068156525982,
+    0.9974169088521673
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 14411
+  },
+  "need_adjusted": {
+   "mean_neighbours": 0.1210218713301409,
+   "mean_non_neighbours": 0.12162854517169756,
+   "pct_more_similar": 0.4987923194347556,
+   "p_neighbours": 0.1834,
+   "null_mean_pct": -1.2979562020847923,
+   "spearman_distance": 0.10759400643470327,
+   "p_spearman": 0.0964,
+   "n_perm": 4999,
+   "test": "Freedman-Lane-type",
+   "relative_distance_bordering": 0.995611923174565,
+   "relative_distance_by_quintile": [
+    0.9638115925552659,
+    1.0174547369173583,
+    1.0111014214168337,
+    1.0283464861056435,
+    0.9794054984788579
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 14140
+  }
+ },
+ "items_used_in_every_area": {
+  "n_items": 1171,
+  "share_of_items_dispensed_nationally": 0.9748411330572909,
+  "share_of_clipped_cells_in_items_not_used_everywhere": 0.8825539960730129,
+  "raw": {
+   "mean_neighbours": 0.1083538988705586,
+   "mean_non_neighbours": 0.12942464910371737,
+   "pct_more_similar": 16.280322472632896,
+   "p_neighbours": 0.0002,
+   "null_mean_pct": -0.015527249112565122,
+   "spearman_distance": 0.323020430079427,
+   "p_spearman": 0.0002,
+   "n_perm": 4999,
+   "test": "area labels",
+   "relative_distance_bordering": 0.8539904684484579,
+   "relative_distance_by_quintile": [
+    0.9053949327788554,
+    0.981390438469935,
+    1.0396337785461587,
+    1.0266447133333156,
+    1.046664829722188
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 0
+  },
+  "need_adjusted": {
+   "mean_neighbours": 0.10297189273372176,
+   "mean_non_neighbours": 0.10692346262380845,
+   "pct_more_similar": 3.69569951544648,
+   "p_neighbours": 0.0002,
+   "null_mean_pct": -1.9262637349750236,
+   "spearman_distance": 0.13808133189671462,
+   "p_spearman": 0.0132,
+   "n_perm": 4999,
+   "test": "Freedman-Lane-type",
+   "relative_distance_bordering": 0.967361332231203,
+   "relative_distance_by_quintile": [
+    0.9511359396126912,
+    1.0130360320468104,
+    1.0118070955971985,
+    1.0181415297806473,
+    1.005845417974429
+   ],
+   "distance_quintile_km": [
+    15.665371773108854,
+    92.17167716050301,
+    144.42945991378514,
+    195.11948664028267,
+    262.3112344766582,
+    529.2684015015126
+   ],
+   "clipped_cells": 1615
+  }
+ },
+ "appliance_share_of_items_dispensed_nationally": 0.024912245255093734
+}

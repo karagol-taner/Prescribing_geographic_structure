@@ -1,0 +1,30 @@
+{
+  "n_sections": 97,
+  "n_sections_used_in_all_areas": 93,
+  "n_choice_items": 2029,
+  "access": {
+    "n": 97,
+    "clustered_raw": 76,
+    "clustered_adj": 20,
+    "nominal_raw": 79,
+    "nominal_adj": 38,
+    "median_I_raw": 0.2805913717453547,
+    "median_I_adj": 0.06576865520894054,
+    "volume_share_clustered_adj": 0.22478525202190758
+  },
+  "choice": {
+    "n": 2029,
+    "clustered_raw": 512,
+    "clustered_adj": 81,
+    "nominal_raw": 762,
+    "nominal_adj": 410,
+    "median_I_raw": 0.06493388639467809,
+    "median_I_adj": -0.018618170407918595,
+    "volume_share_clustered_adj": 0.06235644494758146
+  },
+  "choice_upper_half_volume": {
+    "n": 1015,
+    "clustered_adj": 71,
+    "nominal_adj": 322
+  }
+}

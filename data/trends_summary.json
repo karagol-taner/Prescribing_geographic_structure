@@ -1,0 +1,62 @@
+{
+  "yearly": {
+    "2021": {
+      "items_bn": 1.1294,
+      "cost_gbp_bn": 9.7085,
+      "mean_unique_chemicals": 1081.381,
+      "between_area_cv_mean_of_quarters": 0.5814
+    },
+    "2022": {
+      "items_bn": 1.1635,
+      "cost_gbp_bn": 10.0699,
+      "mean_unique_chemicals": 1076.2202,
+      "between_area_cv_mean_of_quarters": 0.5807
+    },
+    "2023": {
+      "items_bn": 1.2043,
+      "cost_gbp_bn": 10.9655,
+      "mean_unique_chemicals": 1186.0536,
+      "between_area_cv_mean_of_quarters": 0.5829
+    },
+    "2024": {
+      "items_bn": 1.2544,
+      "cost_gbp_bn": 11.1142,
+      "mean_unique_chemicals": 1183.875,
+      "between_area_cv_mean_of_quarters": 0.5979
+    },
+    "2025": {
+      "items_bn": 1.2884,
+      "cost_gbp_bn": 11.4972,
+      "mean_unique_chemicals": 1173.7083,
+      "between_area_cv_mean_of_quarters": 0.6152
+    }
+  },
+  "items": {
+    "mann_kendall_S": 162.0,
+    "mann_kendall_p": 1.7554423625831816e-07,
+    "theil_sen_slope_per_quarter": 2687728.8571428573,
+    "seasonal_kendall_S": 40.0,
+    "seasonal_kendall_p": 1.7836812173932515e-06
+  },
+  "cost": {
+    "mann_kendall_S": 130.0,
+    "mann_kendall_p": 2.8477384503844405e-05,
+    "theil_sen_slope_per_quarter": 31500644.29451924,
+    "seasonal_kendall_S": 32.0,
+    "seasonal_kendall_p": 0.0001466296848979809
+  },
+  "cv": {
+    "mann_kendall_S": 116.0,
+    "mann_kendall_p": 0.00019065106015947464,
+    "theil_sen_slope_per_quarter": 0.002001412491790507,
+    "seasonal_kendall_S": 32.0,
+    "seasonal_kendall_p": 0.0001466296848979809
+  },
+  "chem": {
+    "mann_kendall_S": 24.0,
+    "mann_kendall_p": 0.4555354119407533,
+    "theil_sen_slope_per_quarter": 4.755012531328331,
+    "seasonal_kendall_S": 8.0,
+    "seasonal_kendall_p": 0.39126727928263927
+  }
+}

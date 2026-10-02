@@ -1,0 +1,174 @@
+{
+ "real": {
+  "unadjusted": {
+   "nominal": 819,
+   "clustered": 572,
+   "median_R2": 0.0,
+   "neighbour_pct": 16.14078531401245
+  },
+  "age_deprivation": {
+   "nominal": 559,
+   "clustered": 231,
+   "median_R2": 0.10749402779542655,
+   "neighbour_pct": 7.1624847236784355
+  },
+  "primary": {
+   "nominal": 441,
+   "clustered": 110,
+   "median_R2": 0.17468129119197184,
+   "neighbour_pct": 3.6165550033610274
+  }
+ },
+ "placebo": {
+  "need": {
+   "nominal": {
+    "mean": 608.2,
+    "p05": 526.95,
+    "p95": 673.15,
+    "min": 480.0,
+    "max": 731.0
+   },
+   "clustered": {
+    "mean": 283.705,
+    "p05": 152.95,
+    "p95": 390.04999999999995,
+    "min": 92.0,
+    "max": 422.0
+   },
+   "median_R2": {
+    "mean": 0.135790842138631,
+    "p05": 0.12381655212851331,
+    "p95": 0.1511800925483958,
+    "min": 0.11374732832192597,
+    "max": 0.16477313470406557
+   },
+   "neighbour_pct": {
+    "mean": 7.45938183805853,
+    "p05": 5.978323319174126,
+    "p95": 8.798869429524897,
+    "min": 4.420818442876022,
+    "max": 9.609072844126365
+   },
+   "n_sets": 200,
+   "compared_with": "primary",
+   "mean_moran_I_of_placebo_covariates": [
+    0.49568821959719483,
+    0.21664336230662054,
+    0.3773482367817765,
+    0.6299540362436609,
+    0.34039281443312147
+   ],
+   "mean_canonical_corr_with_real": 0.40199605647795467,
+   "share_of_placebos_reducing_as_much_as_real": {
+    "nominal": 0.0,
+    "clustered": 0.02,
+    "neighbour_pct": 0.0
+   }
+  },
+  "age_deprivation": {
+   "nominal": {
+    "mean": 693.56,
+    "p05": 622.9,
+    "p95": 769.3,
+    "min": 539.0,
+    "max": 817.0
+   },
+   "clustered": {
+    "mean": 396.56,
+    "p05": 272.45,
+    "p95": 492.2,
+    "min": 173.0,
+    "max": 545.0
+   },
+   "median_R2": {
+    "mean": 0.07810122678374273,
+    "p05": 0.06320410212707826,
+    "p95": 0.09126054658548335,
+    "min": 0.0593710819083742,
+    "max": 0.10249680531236166
+   },
+   "neighbour_pct": {
+    "mean": 10.032126641154994,
+    "p05": 8.210633139858105,
+    "p95": 11.225689602745023,
+    "min": 7.502006877606614,
+    "max": 11.606889439226888
+   },
+   "n_sets": 100,
+   "compared_with": "age_deprivation",
+   "mean_moran_I_of_placebo_covariates": [
+    0.4967226980940602,
+    0.21796572823322052,
+    0.37688714951771873
+   ],
+   "mean_canonical_corr_with_real": 0.35034584994869844,
+   "share_of_placebos_reducing_as_much_as_real": {
+    "nominal": 0.02,
+    "clustered": 0.04,
+    "neighbour_pct": 0.0
+   }
+  },
+  "morbidity_increment": {
+   "nominal": {
+    "mean": 516.67,
+    "p05": 464.85,
+    "p95": 576.4,
+    "min": 415.0,
+    "max": 646.0
+   },
+   "clustered": {
+    "mean": 181.85,
+    "p05": 102.95,
+    "p95": 230.1,
+    "min": 84.0,
+    "max": 250.0
+   },
+   "median_R2": {
+    "mean": 0.16654232090050056,
+    "p05": 0.15832696206247612,
+    "p95": 0.18580987121936743,
+    "min": 0.1554392351833374,
+    "max": 0.19434661633503625
+   },
+   "neighbour_pct": {
+    "mean": 5.781464678941355,
+    "p05": 4.578298471939213,
+    "p95": 6.791249759307273,
+    "min": 4.278533173644809,
+    "max": 7.038891549813245
+   },
+   "n_sets": 100,
+   "compared_with": "primary",
+   "mean_moran_I_of_placebo_covariates": [
+    0.4852775706528316,
+    0.21218770701234632,
+    0.3912854331501194,
+    0.2420144082988604,
+    -0.09660748416875467
+   ],
+   "mean_canonical_corr_with_real": 0.6923755385819039,
+   "share_of_placebos_reducing_as_much_as_real": {
+    "nominal": 0.02,
+    "clustered": 0.08,
+    "neighbour_pct": 0.0
+   }
+  }
+ },
+ "permutations": 9999,
+ "moran_I_real_primary": [
+  0.485,
+  0.212,
+  0.391,
+  0.625,
+  0.352
+ ],
+ "moran_I_real_age_deprivation": [
+  0.485,
+  0.212,
+  0.391
+ ],
+ "moran_I_morbidity_components_residualised": [
+  0.253,
+  -0.102
+ ]
+}

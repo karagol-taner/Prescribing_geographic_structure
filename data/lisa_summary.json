@@ -1,0 +1,26 @@
+{
+ "sglt2_use": {
+  "High-High": 5,
+  "Low-Low": 1,
+  "High-Low": 0,
+  "Low-High": 2
+ },
+ "sglt2_use_need_adjusted": {
+  "High-High": 1,
+  "Low-Low": 2,
+  "High-Low": 2,
+  "Low-High": 2
+ },
+ "dapagliflozin_share": {
+  "High-High": 4,
+  "Low-Low": 6,
+  "High-Low": 0,
+  "Low-High": 0
+ },
+ "dapagliflozin_share_need_adjusted": {
+  "High-High": 1,
+  "Low-Low": 5,
+  "High-Low": 0,
+  "Low-High": 0
+ }
+}

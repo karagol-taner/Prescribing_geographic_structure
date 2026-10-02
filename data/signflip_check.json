@@ -1,0 +1,8 @@
+{
+ "n_clustered": 120,
+ "clustered_with_signflip_p_lt_005": 119,
+ "clustered_with_signflip_p_lt_001": 114,
+ "nominal_signflip_all_items": 402,
+ "nominal_freedman_lane_all_items": 442,
+ "draws": 9999
+}

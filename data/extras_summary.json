@@ -1,0 +1,53 @@
+{
+  "per_year": {
+    "2021": {
+      "n_items": 1638,
+      "median_I": 0.09138753618036954,
+      "n_nominal": 678,
+      "pct_nominal": 41.39194139194139
+    },
+    "2022": {
+      "n_items": 1620,
+      "median_I": 0.09058815315075222,
+      "n_nominal": 673,
+      "pct_nominal": 41.54320987654321
+    },
+    "2023": {
+      "n_items": 1891,
+      "median_I": 0.06886126144287023,
+      "n_nominal": 730,
+      "pct_nominal": 38.60391327340032
+    },
+    "2024": {
+      "n_items": 1919,
+      "median_I": 0.06064179413244402,
+      "n_nominal": 724,
+      "pct_nominal": 37.72798332464826
+    },
+    "2025": {
+      "n_items": 1862,
+      "median_I": 0.07222810572509648,
+      "n_nominal": 747,
+      "pct_nominal": 40.11815252416756
+    }
+  },
+  "p90p10": {
+    "n_items_with_p10_gt0": 1377,
+    "median": 4.37576923035003,
+    "iqr": [
+      2.387625826817724,
+      10.025240503329881
+    ],
+    "median_clustered": 3.139768101843133,
+    "median_not_clustered": 5.724487812602471
+  },
+  "coding_stable": {
+    "n_items": 1414,
+    "mantel_nominal": 218,
+    "pct_mantel": 15.417256011315416,
+    "moran_nominal": 718,
+    "pct_moran": 50.777934936350775,
+    "corr_mantel_r_with_main": 0.9945510631231763,
+    "corr_moran_I_with_main": 0.9999430186599196
+  }
+}

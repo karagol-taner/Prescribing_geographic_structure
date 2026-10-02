@@ -1,0 +1,34 @@
+{
+ "appliance_items": 49,
+ "appliance_pct_items": 2.4912245255093732,
+ "appliance_pct_divergence": 18.395472665316404,
+ "items_every_area": 1211,
+ "items_every_area_excl_appliances": 1171,
+ "pct_items_dispensed_in_items_every_area": 99.9750547679458,
+ "sections_all": 211,
+ "sections_multi": 97,
+ "section_items": 2046,
+ "section_pct_items_dispensed": 95.62201059885591,
+ "items_per_patient_2025": {
+  "mean": 20.20245182454764,
+  "median": 20.15462334234653,
+  "min": 13.05184837261639,
+  "max": 35.04522161200134,
+  "top3": [
+   [
+    "West Yorkshire",
+    35.04522161200134
+   ],
+   [
+    "Lincolnshire",
+    29.122679870610455
+   ],
+   [
+    "North East and North Cumbria",
+    28.273794736935614
+   ]
+  ],
+  "west_yorkshire_excess_over_age_imd_expectation": 13.065809503355094,
+  "largest_excess_area": "West Yorkshire"
+ }
+}
